@@ -1,0 +1,27 @@
+[
+    {
+        "Id": 1,
+        "StatusName": "Check Not Completed",
+        "ExternalValue": "Check Not Completed"
+    },
+    {
+        "Id": 2,
+        "StatusName": "Successful Check",
+        "ExternalValue": "Successful Check"
+    },
+    {
+        "Id": 3,
+        "StatusName": "Failed Check",
+        "ExternalValue": "Failed Check"
+    },
+    {
+        "Id": 4,
+        "StatusName": "Partial Check",
+        "ExternalValue": "Partial Check"
+    },
+    {
+        "Id": 5,
+        "StatusName": "User Removed Check",
+        "ExternalValue": "User Removed Check"
+    }
+]

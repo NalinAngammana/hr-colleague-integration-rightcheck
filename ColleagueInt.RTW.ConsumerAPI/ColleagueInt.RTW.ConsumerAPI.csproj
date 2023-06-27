@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ColleagueInt.RTW.Consumer\ColleagueInt.RTW.Consumer.csproj" />
+    <ProjectReference Include="..\ColleagueInt.RTW.Services\ColleagueInt.RTW.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

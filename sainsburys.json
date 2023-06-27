@@ -1,0 +1,20 @@
+{
+  "schema-version": "1.0.0",
+  "services": [],
+  "maintainers": [
+    {
+      "type": "TEAM",
+      "name": "HR-Atom, HR-Enigma",
+      "email": "hr.techteam@sainsburys.co.uk"
+    }
+  ],
+  "owners": [
+    {
+      "name": "HR-Atom, HR-Enigma",
+      "email": "hr.techteam@sainsburys.co.uk",
+      "type": "TEAM"
+    }
+  ],
+  "name": "hr-colleagueInt-rtw",
+  "description": "Colleague Integration with right to work checks"
+}

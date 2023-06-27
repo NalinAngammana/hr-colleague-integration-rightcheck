@@ -1,0 +1,30 @@
+﻿[
+    {
+        "Id": 1,
+        "ErrorCode": "AZRCCP_RTW_HR_APP_101001"
+    },
+    {
+        "Id": 2,
+        "ErrorCode": "AZRCCP_RTW_HR_APP_102001"
+    },
+    {
+        "Id": 3,
+        "ErrorCode": "AZRCCP_RTW_HR_APP_103001"
+    },
+    {
+        "Id": 4,
+        "ErrorCode": "AZRCCP_RTW_HR_APP_104001"
+    },
+    {
+        "Id": 5,
+        "ErrorCode": "AZRCCP_RTW_HR_APP_105001"
+    },
+    {
+        "Id": 6,
+        "ErrorCode": "AZRCCP_RTW_HR_APP_106001"
+    },
+    {
+        "Id": 7,
+        "ErrorCode": "AZRCCP_RTW_HR_APP_110001"
+    }
+]

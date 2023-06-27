@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker;Microsoft.NET.Sdk.Publish">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Services\Inbound\Contracts\**" />
+    <Compile Remove="Services\Outbound\Contracts\**" />
+    <Content Remove="Services\Inbound\Contracts\**" />
+    <Content Remove="Services\Outbound\Contracts\**" />
+    <EmbeddedResource Remove="Services\Inbound\Contracts\**" />
+    <EmbeddedResource Remove="Services\Outbound\Contracts\**" />
+    <None Remove="Services\Inbound\Contracts\**" />
+    <None Remove="Services\Outbound\Contracts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ColleagueInt.RTW.Core\ColleagueInt.RTW.Core.csproj" />
+    <ProjectReference Include="..\ColleagueInt.RTW.Database\ColleagueInt.RTW.Database.csproj" />
+    <ProjectReference Include="..\ColleagueInt.RTW.EventHandler\ColleagueInt.RTW.EventHandler.csproj" />
+    <ProjectReference Include="..\ColleagueInt.RTW.Services\ColleagueInt.RTW.Services.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿[
+    {
+        "Id": 1,
+        "IncidentDetailId": "4",
+        "Number": "123",
+        "Status": "10",
+        "CreationTime": "01/01/2010",
+        "ServiceNowDescription": "A"
+    },
+    {
+        "Id": 2,
+        "IncidentDetailId": "4",
+        "Number": "123",
+        "Status": "10",
+        "CreationTime": "01/01/2012",
+        "ServiceNowDescription": "B"
+    },
+    {
+        "Id": 3,
+        "IncidentDetailId": "4",
+        "Number": "123",
+        "Status": "10",
+        "CreationTime": "01/01/2011",
+        "ServiceNowDescription": "C"
+    },
+    {
+        "Id": 4,
+        "IncidentDetailId": "2",
+        "Number": "123",
+        "Status": "10",
+        "CreationTime": "01/01/2012",
+        "ServiceNowDescription": "D"
+    }
+]

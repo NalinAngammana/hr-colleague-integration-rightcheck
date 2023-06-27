@@ -1,0 +1,47 @@
+[
+    {
+        "Id": 1,
+        "Title": "InitialStage",
+        "IsValidCheckExist": true
+    },
+    {
+        "Id": 2,
+        "Title": "Check Requested",
+        "IsValidCheckExist": true
+    },
+    {
+        "Id": 3,
+        "Title": "Check Completed",
+        "IsValidCheckExist": false
+    },
+    {
+        "Id": 4,
+        "Title": "HCM Updated",
+        "IsValidCheckExist": false
+    },
+    {
+        "Id": 5,
+        "Title": "Check Request Failed",
+        "IsValidCheckExist": false
+    },
+    {
+        "Id": 6,
+        "Title": "Read Data Failed",
+        "IsValidCheckExist": true
+    },
+    {
+        "Id": 7,
+        "Title": "HCM Update Failed",
+        "IsValidCheckExist": true
+    },
+    {
+        "Id": 8,
+        "Title": "HCM Documents Uploaded",
+        "IsValidCheckExist": true
+    },
+    {
+        "Id": 9,
+        "Title": "HCM Documents Upload Failed",
+        "IsValidCheckExist": true
+    }
+]

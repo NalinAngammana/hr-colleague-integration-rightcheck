@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ColleagueInt.RTW.Consumer\ColleagueInt.RTW.Consumer.csproj" />
+    <ProjectReference Include="..\ColleagueInt.RTW.Database\ColleagueInt.RTW.Database.csproj" />
+    <ProjectReference Include="..\ColleagueInt.RTW.Repositories\ColleagueInt.RTW.Repositories.csproj" />
+    <ProjectReference Include="..\ColleagueInt.RTW.Services\ColleagueInt.RTW.Services.csproj" />
+    <ProjectReference Include="..\ColleagueInt.RTW.ViewModels\ColleagueInt.RTW.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Repositories\SeedTestData\TestData\Colleagues.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Repositories\SeedTestData\TestData\IncidentDetails.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Repositories\SeedTestData\TestData\Incidents.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Repositories\SeedTestData\TestData\Stages.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Repositories\SeedTestData\TestData\Statuses.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
